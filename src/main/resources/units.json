@@ -1,0 +1,19 @@
+{
+  "peon": {
+    "radius": 1,
+    "armor": {
+      "armor": 5,
+      "armorType": "light"
+    },
+    "hitPoints": 100,
+    "maxHitPoints": 100,
+    "regenerationRate": 0.25,
+    "regenerationHitPoints": 50,
+    "movementSpeed": 2,
+    "sprite": {
+      "type": "circle",
+      "radius": 0.3,
+      "fill": "orange"
+    }
+  }
+}

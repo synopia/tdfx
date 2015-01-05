@@ -1,0 +1,93 @@
+{
+  "map_element_td": {
+    "blockDefinitions": {
+      "X": {
+        "passable": false,
+        "towerPlaceable": true,
+        "sprite": {
+          "type": "rect",
+          "size": [
+            1,
+            1
+          ],
+          "fill": "darkgray"
+        }
+      },
+      " ": {
+        "passable": true,
+        "towerPlaceable": false,
+        "sprite": {
+          "type": "rect",
+          "size": [
+            1,
+            1
+          ],
+          "fill": "white"
+        }
+      },
+      "s": {
+        "passable": true,
+        "towerPlaceable": false,
+        "spawn": true,
+        "sprite": {
+          "type": "rect",
+          "size": [
+            1,
+            1
+          ],
+          "fill": "yellow"
+        }
+      },
+      "g": {
+        "passable": true,
+        "towerPlaceable": false,
+        "goal": true,
+        "sprite": {
+          "type": "rect",
+          "size": [
+            1,
+            1
+          ],
+          "fill": "orange"
+        }
+      }
+    },
+    "data": [
+      "XXXXXXXXX s  XXXX g  XXXXXXXXXXXXX",
+      "X            XXXX                X",
+      "X            XXXX                X",
+      "X            XXXX                X",
+      "X            XXXX                X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXX                XXXX    X",
+      "X    XXXX                XXXX    X",
+      "X    XXXX                XXXX    X",
+      "X    XXXX                XXXX    X",
+      "X    XXXX    XXXXXXXX    XXXX    X",
+      "X            XXXXXXXX    XXXX    X",
+      "X            XXXXXXXX    XXXX    X",
+      "X            XXXXXXXX    XXXX    X",
+      "X            XXXXXXXX    XXXX    X",
+      "XXXXXXXXXXXXXXXXXXXXX    XXXX    X",
+      "XXXXXXXXXXXXXXXXXXXXX    XXXX    X",
+      "XXXXXXXXXXXXXXXXXXXXX    XXXX    X",
+      "XXXXXXXXXXXXXXXXXXXXX    XXXX    X",
+      "X                        XXXX    X",
+      "X                        XXXX    X",
+      "X                        XXXX    X",
+      "X                        XXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X    XXXXXXXXXXXXXXXXXXXXXXXX    X",
+      "X                                X",
+      "X                                X",
+      "X                                X",
+      "X                                X",
+      "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    ]
+  }
+}

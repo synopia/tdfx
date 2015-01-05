@@ -1,0 +1,102 @@
+{
+  "basic_rocket": {
+    "range": 5,
+    "cooldown": 0.1,
+    "projectile": {
+      "sprite": {
+        "type": "rect",
+        "fill": "black",
+        "size": [
+          0.5,
+          0.5
+        ]
+      },
+      "type": "rocket",
+      "speed": 6,
+      "effects": [
+        {
+          "type": "damage",
+          "baseDamage": 5,
+          "dice": "1D4",
+          "damageType": "pierce"
+        },
+        {
+          "type": "slowdown",
+          "duration": 1,
+          "factor": 0.7
+        }
+      ]
+    }
+  },
+  "archer_tower_1": {
+    "size": [
+      2,
+      2
+    ],
+    "sprite": {
+      "type": "circle",
+      "fill": "blue",
+      "stroke": "white"
+    },
+    "weapon": "basic_rocket"
+  },
+  "archer_tower_2": {
+    "sprite": {
+      "type": "circle",
+      "radius": 1,
+      "fill": "blue"
+    },
+    "size": [
+      2,
+      2
+    ],
+    "upgrades": "archer_tower_1",
+    "weapon": {
+      "range": 120,
+      "cooldown": 0.1,
+      "projectile": {
+        "type": "rocket",
+        "effects": [
+          {
+            "type": "damage",
+            "baseDamage": 10,
+            "dice": "2D4",
+            "damageType": "pierce"
+          }
+        ]
+      }
+    },
+    "frost_tower_1": {
+      "size": [
+        2,
+        2
+      ],
+      "weapon": {
+        "range": 50,
+        "cooldown": 2,
+        "projectile": {
+          "type": "rocket",
+          "effects": [
+            {
+              "type": "damage",
+              "baseDamage": 5,
+              "dice": "1D7",
+              "damageType": "magic"
+            },
+            {
+              "type": "buff",
+              "duration": 1,
+              "ticks": 4,
+              "stackable": false,
+              "effect": {
+                "type": "slowdown",
+                "duration": 0.25,
+                "factor": 0.7
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

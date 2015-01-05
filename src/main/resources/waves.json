@@ -1,0 +1,12 @@
+{
+  "wave_1": {
+    "spawns": [
+      {
+        "unit": "peon",
+        "count": 10,
+        "delay": 2,
+        "duration": 10
+      }
+    ]
+  }
+}
